@@ -6,6 +6,7 @@ export default function App() {
 
   const handleClick = () => {
     settodos([...todos, input]);
+    setinput("");
   };
 
   const handleDelete = (index) => {
